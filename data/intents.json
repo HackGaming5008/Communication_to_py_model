@@ -1,0 +1,1083 @@
+{
+	"intents": [
+		{
+			"tag": "greetings",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"Is anyone there?",
+				"Hello",
+				"Good day",
+				"What's up",
+				"Hi there",
+				"Howdy"
+			],
+			"responses": [
+				"Hey!",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?",
+				"Hello! How can I assist you today?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"bye",
+				"See you later",
+				"Goodbye",
+				"Take care",
+				"Bye bye",
+				"Catch you later"
+			],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon.",
+				"Goodbye! Have a great day!",
+				"Take care! See you soon!"
+			]
+		},
+		{
+			"tag": "who",
+			"patterns": [
+				"What are you?",
+				"Tell me about yourself",
+				"Who created you?"
+			],
+			"responses": [
+				"I am an AI model designed by Dhritisman, I can help with your basic day-to-day tasks. And you can also ask me questions.",
+				"I am an AI model.",
+				"Hi, nice to meet you. I am your AI Assistant.",
+				"I was created by Dhritisman to assist with various tasks."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Thanks a lot",
+				"I appreciate it",
+				"Much obliged"
+			],
+			"responses": [
+				"Happy to help!",
+				"Anytime!",
+				"My pleasure",
+				"You're welcome",
+				"Glad I could assist!"
+			]
+		},
+		{
+			"tag": "noanswer",
+			"patterns": [
+				"I don't understand",
+				"Can you rephrase?",
+				"I'm confused",
+				"What do you mean?",
+				"Explain that again",
+				"I didn't get that"
+			],
+			"responses": [
+				"Sorry, I don't understand that.",
+				"Can you please rephrase?",
+				"I'm not sure I understand.",
+				"Can you say that in a different way?",
+				"I'm sorry, I don't know how to respond to that."
+			]
+		},
+		{
+			"tag": "weather",
+			"patterns": [
+				"What's the weather like?",
+				"How's the weather today?",
+				"Is it going to rain?",
+				"What's the forecast for today?",
+				"Tell me about the weather"
+			],
+			"responses": [
+				"I'm not currently connected to a weather service, but you can check your local forecast online.",
+				"I can't provide live weather updates at the moment, but I can help with other questions.",
+				"You might want to check a weather website for the most accurate information.",
+				"Currently, I don't have access to live weather data, but I can assist with other queries."
+			]
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"What's your name?",
+				"Who are you?",
+				"Do you have a name?",
+				"What should I call you?"
+			],
+			"responses": [
+				"I am your AI Assistant.",
+				"You can call me AI Assistant.",
+				"I am an AI model created by Dhritisman.",
+				"I am here to assist you, you can call me AI Assistant."
+			]
+		},
+		{
+			"tag": "age",
+			"patterns": [
+				"How old are you?",
+				"What's your age?",
+				"When were you created?",
+				"Tell me your age"
+			],
+			"responses": [
+				"I don't have an age like humans, but I was created recently.",
+				"Age is just a number for me. I am as old as the latest update!",
+				"I am constantly evolving and learning new things.",
+				"I don't age, but I am updated regularly to improve."
+			]
+		},
+		{
+			"tag": "joke",
+			"patterns": [
+				"Tell me a joke",
+				"Make me laugh",
+				"Do you know any jokes?",
+				"I want to hear a joke"
+			],
+			"responses": [
+				"Why don't scientists trust atoms? Because they make up everything!",
+				"Why did the scarecrow win an award? Because he was outstanding in his field!",
+				"I told my computer I needed a break, and now it won't stop sending me Kit-Kat ads.",
+				"Why do cows have hooves instead of feet? Because they lactose!"
+			]
+		},
+		{
+			"tag": "music",
+			"patterns": [
+				"What's your favorite music?",
+				"Do you like music?",
+				"Can you recommend me some songs?",
+				"Tell me about music"
+			],
+			"responses": [
+				"I don't listen to music, but I can help you find some!",
+				"Music is a great way to relax. What genre do you like?",
+				"There are so many great songs out there. Do you have a favorite genre?",
+				"I don't have personal preferences, but I can suggest some popular music."
+			]
+		},
+		{
+			"tag": "food",
+			"patterns": [
+				"What's your favorite food?",
+				"Do you eat?",
+				"Can you recommend me a recipe?",
+				"Tell me about food"
+			],
+			"responses": [
+				"I don't eat, but I can help you find some recipes!",
+				"Food is essential! What kind of cuisine do you like?",
+				"There are so many delicious dishes. Do you have a favorite?",
+				"I can help you find recipes and cooking tips!"
+			]
+		},
+		{
+			"tag": "hobbies",
+			"patterns": [
+				"What are your hobbies?",
+				"Do you have any hobbies?",
+				"What do you do for fun?",
+				"Tell me about your hobbies"
+			],
+			"responses": [
+				"I don't have hobbies like humans, but I enjoy helping you!",
+				"My hobby is assisting you with your queries.",
+				"I don't need hobbies, but I can help you find some interesting ones!",
+				"Helping you is what I do best!"
+			]
+		},
+		{
+			"tag": "creator",
+			"patterns": [
+				"Who created you?",
+				"Who is your creator?",
+				"Who made you?",
+				"Who developed you?",
+				"Who is behind your creation?",
+				"Who is responsible for creating you?",
+				"Can you tell me who developed you?",
+				"Who programmed you?",
+				"Who made you come to life?",
+				"Who designed you?",
+				"Who is your inventor?",
+				"Who is the mastermind behind you?",
+				"Who brought you into existence?",
+				"Who is the creator of this chatbot?"
+			],
+			"responses": [
+				"I was created by Dhritisman.",
+				"Dhritisman developed me.",
+				"I am a creation of Dhritisman.",
+				"Dhritisman is my creator.",
+				"I was developed by Dhritisman.",
+				"Dhritisman is the genius behind me.",
+				"I owe my existence to Dhritisman.",
+				"Dhritisman brought me to life.",
+				"I was designed by Dhritisman.",
+				"Dhritisman is the brain behind my development.",
+				"Dhritisman created me.",
+				"Credit goes to Dhritisman for my creation.",
+				"Dhritisman is responsible for my programming.",
+				"Dhritisman is the creator who made me."
+			]
+		},
+		{
+			"tag": "time",
+			"patterns": [
+				"What time is it?",
+				"Can you tell me the current time?",
+				"What's the time now?",
+				"Tell me the time."
+			],
+			"responses": [
+				"The current time is",
+				"Now it's",
+				"That would be",
+				"Right now the time is"
+			]
+		},
+		{
+			"tag": "date",
+			"patterns": [
+				"What is the date today?",
+				"Can you tell me today's date?",
+				"What's the date?",
+				"Tell me the date."
+			],
+			"responses": [
+				"Today's date is ",
+				"Today is ",
+				"The date is ",
+				"That would be "
+			]
+		},
+		{
+			"tag": "sorry",
+			"patterns": [
+				"Oh sorry my mistake",
+				"sorry",
+				"its my mistake",
+				"I appologize"
+			],
+			"responses": [
+				"Its ok, don't worry.",
+				"Everyone makes mistakes its ok.",
+				"Please don't bother."
+			]
+		},
+		{
+			"tag": "screenshot",
+			"patterns": [
+				"take a Screenshot",
+				"take Screenshot",
+				"take ss",
+				"Can you capture the screen?",
+				"Screenshot please"
+			],
+			"responses": [
+				"Taking a screenshot now...",
+				"I'll capture the screen for you.",
+				"Screenshot is being taken."
+			]
+		},
+		{
+			"tag": "rosecolor",
+			"patterns": [
+				"color of a rose",
+				"what is the color of a rose?",
+				"rose color"
+			],
+			"responses": [
+				"The color of rose is red.",
+				"It's color is red."
+			]
+		},
+		{
+			"tag": "appreciation",
+			"patterns": [
+				"Great job!",
+				"Well done!",
+				"You did a fantastic job!",
+				"I'm impressed!",
+				"That was excellent!",
+				"Good work!",
+				"Nice work!",
+				"You're amazing!",
+				"You've done a great job!",
+				"Awesome work!",
+				"Nice"
+			],
+			"responses": [
+				"Thank you! I'm glad you liked it.",
+				"I appreciate your kind words!",
+				"Thanks a lot! I'm happy to hear that.",
+				"Your appreciation means a lot to me.",
+				"I'm really grateful for your positive feedback!",
+				"Thank you! It was my pleasure to help.",
+				"I'm glad you think so! Thanks for the compliment.",
+				"It's great to hear that! Thanks for the support.",
+				"I'm happy to have been of help. Thanks!",
+				"Thank you for your encouragement!"
+			]
+		},
+		{
+			"tag": "train",
+			"patterns": [
+				"Train",
+				"Train now.",
+				"Start training.",
+				"Initiate model training.",
+				"Begin training process.",
+				"Run the training algorithm.",
+				"Train the neural network.",
+				"Execute model training.",
+				"Commence model training.",
+				"Trigger the training procedure.",
+				"Start the training sequence."
+			],
+			"responses": [
+				"Training process initiated. Please wait while the model is being trained.",
+				"The model training has started. This may take some time depending on the dataset and model complexity.",
+				"Initiating the training procedure now. I'll let you know once it's complete.",
+				"Starting the training sequence. Please be patient as the model is trained.",
+				"Training the model. You will be notified once the process is finished.",
+				"The model is now being trained. This could take a few minutes.",
+				"Model training has begun. Check back later for updates.",
+				"Training has been started. Monitoring the progress is ongoing.",
+				"The training algorithm is running. Thank you for your patience.",
+				"Executing model training now. Please hold on as the process continues."
+			]
+		},
+		{
+			"tag": "howareyou",
+			"patterns": [
+				"How are you",
+				"How's everything going",
+				"How are you feeling today",
+				"What's up with you",
+				"How's your day been so far",
+				"How's life treating you",
+				"What's new with you",
+				"How are things on your end",
+				"How's your mood today",
+				"What's going on in your world",
+				"How are you holding up"
+			],
+			"responses": [
+				"I'm doing great, thanks for asking! How about you?",
+				"Everything's going well here. How are you doing today?",
+				"I'm feeling fantastic! How are you feeling today?",
+				"Not much, just here to chat! What's up with you?",
+				"My day's been pretty good so far. How's your day been?",
+				"Life's treating me well! How's it treating you?",
+				"Nothing new on my end. What's new with you?",
+				"Things are running smoothly here. How about on your end?",
+				"I'm in a good mood today! How's your mood?",
+				"Just the usual here. What's going on in your world?",
+				"I'm holding up well. How are you holding up?"
+			]
+		},
+		{
+			"tag": "iamfine",
+			"patterns": [
+				"I am fine.",
+				"I'm doing fine.",
+				"I am doing fine",
+				"Everything is okay.",
+				"I'm good.",
+				"I am good",
+				"All is well.",
+				"I'm alright.",
+				"Everything's fine.",
+				"I'm feeling good.",
+				"I'm doing alright.",
+				"Everything is going well.",
+				"I'm in good shape.",
+				"Things are fine.",
+				"I'm feeling great.",
+				"I'm doing just fine.",
+				"All is good.",
+				"Everything's looking up.",
+				"I'm perfectly fine.",
+				"I'm doing well.",
+				"I'm feeling okay.",
+				"Everything's under control.",
+				"I'm managing well."
+			],
+			"responses": [
+				"Glad to hear that you're doing fine! If there's anything you want to talk about, I'm here.",
+				"Great to know everything is okay!",
+				"Awesome! If you need anything or want to chat, just let me know.",
+				"It's good to hear you're doing well.",
+				"I'm happy to hear you're alright.",
+				"Nice to hear that you're feeling good.",
+				"Glad to hear that everything's fine!",
+				"Good to know you're doing alright. How can I assist you today?",
+				"It's great that everything is going well.",
+				"I'm glad to hear you're feeling good. How can I help you today?"
+			]
+		},
+		{
+			"tag": "calculate",
+			"patterns": [
+				"calculate 5 plus 3",
+				"add 7 and 2",
+				"subtract 10 from 20",
+				"multiply 4 by 5",
+				"divide 15 by 3",
+				"2 + 2",
+				"5 - 3",
+				"2 / 2",
+				"8 * 3",
+				"4 + 4",
+				"what is 2 + 2",
+				"what is 4 + 4",
+				"what is 5 - 2",
+				"what is 2 / 2",
+				"what is 9 * 3",
+				"3 times 4",
+				"8 divided by 2",
+				"what is 9 plus 1",
+				"subtract 7 from 15",
+				"10 plus 10",
+				"15 minus 5",
+				"multiply 6 with 3",
+				"divide 12 by 4",
+				"calculate 7 plus 8",
+				"add 3 to 5",
+				"subtract 4 from 9",
+				"times 6 by 2",
+				"divide 20 by 5",
+				"What is 5 plus 3?",
+				"Calculate 7 * 8"
+			],
+			"responses": [
+				"Here's the result",
+				"The answer is",
+				"The result is",
+				"Let me calculate that for you",
+				"The calculation yields"
+			]
+		},
+		{
+			"tag": "fraction",
+			"patterns": [
+				"1/2 + 3/4",
+                "5/9 - 1/3",
+                "2/5 * 4/7",
+                "7/8 / 2/4",
+                "3/4 + 1/6",
+                "5/12 - 2/9",
+                "8/15 * 3/5",
+                "4/7 / 1/2",
+                "1/3 + 2/9",
+                "5/8 - 1/4",
+                "6/11 * 2/3",
+                "3/5 / 1/3",
+                "2/7 + 4/9",
+                "7/8 - 1/4",
+                "3/10 * 5/6",
+                "2/5 / 3/4",
+                "1/4 + 5/8",
+                "7/9 - 2/5",
+                "4/7 * 2/3",
+                "5/8 / 3/4",
+                "1/3 + 3/5",
+                "6/7 - 1/2",
+                "2/3 * 4/5",
+                "7/10 / 2/3",
+                "3/4 + 1/2",
+                "5/6 - 1/3",
+                "1/2 + 7",
+                "3/5 - 2",
+                "7/8 * 3",
+                "4/9 / 2",
+                "2/3 + 5",
+                "5/6 - 4",
+                "3/7 * 8",
+                "1/4 / 5",
+                "7/10 + 2",
+                "2/5 * 6",
+                "3/8 + 4",
+                "5/9 - 3",
+                "7/12 * 4",
+                "2/7 / 3",
+                "1/3 + 6",
+                "4/5 - 2",
+                "5/8 * 7",
+                "3/4 / 4",
+                "2/9 + 8",
+                "7/15 - 5",
+				"6/7 divided by 2/3",
+				"1/2 plus 1/4",
+				"3/5 minus 1/10",
+				"5/6 times 2/3",
+				"7/8 divided by 1/4",
+				"1/3 + 2/5",
+				"3/4 minus 1/2",
+				"2/7 times 5/9",
+				"9/10 divided by 3/4",
+				"2/3 plus 1/6",
+				"5/12 minus 1/3",
+				"4/5 times 1/2",
+				"8/9 divided by 2/3",
+				"7/10 plus 3/20",
+				"1/4 minus 1/8",
+				"3/7 times 2/5",
+				"5/6 divided by 1/3",
+				"9/16 plus 1/8",
+				"What is 2/3 plus 5/6?",
+				"Calculate 3/4 minus 1/8.",
+				"What is 7/10 times 2/5?",
+				"Find 9/12 divided by 3/4.",
+				"What is 1/2 plus 3/8?",
+				"Calculate 4/7 minus 2/5.",
+				"What is 5/6 times 2/3?",
+				"Find 8/9 divided by 4/5.",
+				"What is 2/5 plus 1/2?",
+				"Calculate 7/8 minus 1/4.",
+				"What is 3/7 times 4/9?",
+				"Find 6/7 divided by 2/3.",
+				"What is 1/3 plus 5/9?",
+				"Calculate 5/8 minus 3/16.",
+				"What is 2/3 times 3/5?",
+				"Find 7/10 divided by 1/2.",
+				"What is 4/9 plus 2/3?",
+				"Calculate 3/5 minus 1/10.",
+				"What is 5/12 times 3/4?",
+				"Find 9/16 divided by 3/8."
+			],
+			"responses": [
+				"Here's the result",
+				"The answer is",
+				"The result is",
+				"Let me calculate that for you",
+				"The calculation yields"
+			]
+		},
+		{
+			"tag":"move_",
+			"patterns":[
+				"Move now",
+				"Take action now",
+				"Get going",
+				"Proceed immediately",
+				"Start moving",
+				"Act now",
+				"Make a move",
+				"Shift now",
+				"Begin now",
+				"Advance right away",
+				"Move forward now",
+				"Start"
+			],
+			"responses":[
+
+			]
+		},
+		{
+			"tag":"Stop_",
+			"patterns":[
+				"Stop now",
+				"Stop moving",
+				"Stop"
+			],
+			"responses":[
+
+			]
+		},
+		{
+			"tag": "favorite_color",
+			"patterns": [
+				"What's your favorite color?",
+				"Do you have a favorite color?",
+				"Tell me your favorite color",
+				"What's the color you like best?",
+				"What's your preferred color?",
+				"Which color do you like most?",
+				"Do you have a preferred color?"
+			],
+			"responses": [
+				"My favorite color is blue!",
+				"I like blue the most.",
+				"Blue is my favorite color.",
+				"I prefer the color blue.",
+				"Blue is the color I like best."
+			]
+		},
+		{
+			"tag": "meaning_of_life",
+			"patterns": [
+				"What is the meaning of life?",
+				"Why are we here?",
+				"What's the purpose of life?",
+				"What's the reason for existence?",
+				"Can you tell me the meaning of life?",
+				"What's life's purpose?",
+				"Why do we exist?",
+				"What's the ultimate goal in life?"
+			],
+			"responses": [
+				"The meaning of life is a question many people ponder. Some find it in personal fulfillment, others in relationships or making a difference.",
+				"Different people have different answers. Some believe it's about finding happiness, while others think it's about contributing to something greater than oneself.",
+				"The purpose of life can be unique to each individual. It's often about finding your own path and creating your own meaning.",
+			"Life's meaning can be complex and subjective. Many people seek it through experiences, relationships, and personal growth.",
+			"Philosophers, scientists, and thinkers have debated this for centuries. Ultimately, it might be up to each person to find their own meaning."
+			]
+		},
+		{
+			"tag": "superpower",
+			"patterns": [
+				"If you could have any superpower, what would it be?",
+				"What superpower would you choose if you could have any?",
+				"Imagine you could have any superpower. Which one would you pick?",
+				"If you had the chance to choose a superpower, what would it be?",
+				"What superpower do you wish you had?",
+				"If you could possess any superpower, which would it be?"
+			],
+			"responses": [
+				"I'd choose the power of teleportation. It would be amazing to instantly visit any place in the world!",
+				"I'd go for telekinesis. Being able to move things with my mind would be so cool and convenient!",
+				"I'd pick the ability to time travel. It would be incredible to see different eras and events firsthand!",
+				"I think having the power of invisibility would be fascinating. Imagine the possibilities!",
+				"I'd choose super intelligence. It would be awesome to understand and solve any problem instantly!"
+			]
+		},
+		{
+			"tag": "future_ai",
+			"patterns": [
+				"What do you think about AI's future?",
+				"How do you see artificial intelligence evolving?",
+				"What's your opinion on the future of AI?",
+				"How will AI change in the coming years?",
+				"What are your thoughts on AI's future development?",
+				"Where do you think AI is headed?"
+			],
+			"responses": [
+				"The future of AI is incredibly exciting! We're likely to see more advanced and personalized applications that could transform industries and daily life.",
+				"AI is expected to become more integrated into various fields, from healthcare to education, bringing innovative solutions and improvements.",
+				"Artificial intelligence will continue to advance rapidly, possibly leading to new technologies that we can barely imagine today.",
+				"As AI evolves, it might significantly impact how we work, interact, and solve global challenges, making the future very promising.",
+				"While there are many potential benefits, it's crucial to address ethical considerations and ensure that AI development is aligned with human values."
+			]
+		},
+		{
+			"tag": "perfect_day",
+			"patterns": [
+				"What does your perfect day look like?",
+				"Describe your ideal day.",
+				"How would you spend your perfect day?",
+				"What's your idea of the perfect day?",
+				"Tell me about your perfect day.",
+				"What would make a day perfect for you?",
+				"What would your dream day be like?",
+				"How do you envision a perfect day?"
+			],
+			"responses": [
+				"My perfect day would be filled with lots of sunshine, good company, and some great music. What about yours?",
+				"I'd start with a relaxing morning, maybe a nice breakfast and a walk. Then, I'd spend time on my favorite hobbies and end the day with a movie or a good book. How about you?",
+				"A perfect day for me would involve exploring new places and having meaningful conversations with friends. What's your ideal day?",
+				"For me, a perfect day would include enjoying some quiet time, working on creative projects, and spending time with loved ones. What does your perfect day involve?",
+				"I'd love a day with a mix of relaxation and adventure—maybe a hike followed by a cozy evening at home. What would your dream day be like?"
+			]
+		},
+		{
+			"tag": "dance",
+			"patterns": [
+				"Can you dance?",
+				"Show me your dance moves",
+				"Do you know how to dance?",
+				"Can you do a dance?",
+				"Are you able to dance?",
+				"Show me your dancing skills",
+				"Can you bust a move?"
+			],
+			"responses": [
+				"I wish I could, but I'm all code and no moves!",
+				"I can't dance, but I can help you find some great dance tutorials!",
+				"Dancing isn't in my skill set, but I can help with dance tips!",
+				"I'd love to, but I'm more of a text-based dancer.",
+				"While I can't dance, I can offer some awesome dance-related content!"
+			]
+		},
+		{
+			"tag": "aliens",
+			"patterns": [
+				"Do you believe in aliens?",
+				"Are aliens real?",
+				"What's your take on extraterrestrial life?",
+				"Do you think there are aliens out there?",
+				"What's your opinion about aliens?",
+				"Are aliens a possibility?",
+				"Do you believe in extraterrestrials?",
+				"Have you ever thought about aliens?"
+			],
+			"responses": [
+				"That's an interesting question! I think the universe is so vast that it's possible there could be other forms of life out there.",
+				"I don't have personal beliefs, but many people think that with the size of the universe, aliens could exist.",
+				"Whether aliens exist or not is still a mystery, but it's definitely a topic that gets a lot of attention!",
+				"The idea of aliens is fascinating, and there's a lot of speculation, but no concrete evidence has been found yet.",
+				"People have different opinions about aliens. Some believe in them, while others think there's no evidence to support their existence."
+			]
+		},
+		{
+			"tag": "strangest_thing",
+			"patterns": [
+				"What's the strangest thing you've ever encountered?",
+				"Can you tell me about something strange you've come across?",
+				"What's the weirdest thing you know?",
+				"Have you ever seen anything really unusual?",
+				"What's the oddest thing you've encountered?",
+				"Can you share an odd experience you've had?",
+				"What's the most bizarre thing you've come across?"
+			],
+			"responses": [
+				"I once heard about a library that was entirely made of mirrors! It sounds like something out of a sci-fi movie.",
+				"There are stories about giant, talking trees that supposedly existed in ancient folklore. That would be quite strange!",
+				"One time, I came across a tale of a mysterious island that appears and disappears at random. Quite eerie!",
+				"I read about a town where every resident has the same dream every night. Imagine how strange that must be!",
+				"I've encountered stories about a cat that could predict the weather with uncanny accuracy. Pretty unusual, right?"
+			]
+		},
+		{
+			"tag": "tasks",
+			"patterns": [
+				"What can you do?",
+				"What tasks are you designed for?",
+				"How can you assist me?",
+				"Tell me what you can do",
+				"How can you help me?",
+				"What are your functions?",
+				"What help can you provide?",
+				"What services do you offer?",
+				"What are your capabilities?",
+				"what can you help me with?",
+				"How can you help me?",
+				"What are your functions?",
+				"Tell me about your capabilities."
+			],
+			"responses": [
+				"I can assist with a variety of tasks, including answering questions, providing information, and helping with various topics.",
+				"I'm designed to help with a range of activities like answering queries, offering advice, and supporting different tasks.",
+				"My tasks include answering your questions, providing useful information, and helping you with different needs.",
+				"I can help with answering questions, giving information, and assisting with a variety of topics.",
+				"I'm here to help you with information, answer your questions, and assist with various tasks you might have.",
+				"I can help you with various tasks such as answering questions, providing information, and assisting with basic tasks.",
+				"I can chat with you, answer questions, and help with some basic tasks.",
+				"You can ask me anything, and I'll do my best to assist you.",
+				"I can provide information, answer questions, and help with everyday tasks.",
+				"I can assist with answering questions, providing information, and performing basic tasks.",
+				"I can help you with various queries, provide information, and assist with simple tasks.",
+				"You can ask me questions, and I will do my best to help you.",
+				"I am here to provide information and assist with your needs.",
+				"I can assist with answering questions, providing information, and helping with various tasks."
+			]
+		},
+		{
+			"tag": "process_explanation",
+			"patterns": [
+				"How do you work?",
+				"Can you explain your process?",
+				"What happens when I give you a command?",
+				"How do you understand my instructions?",
+				"What's the process behind your responses?",
+				"How do you handle my requests?",
+				"How do you generate responses?",
+				"Can you tell me how you respond to commands?",
+				"What is your response mechanism?",
+				"How do you interpret what I say?"
+			],
+			"responses": [
+				"When you give me a command, I analyze your input to understand the intent. Then, I generate a response based on patterns and data I've been trained on.",
+				"I process your commands by breaking them down into key components, understanding the context, and generating a response that fits the given situation.",
+				"My system parses your input to identify key words and context. I then use this information to create a response that aims to address your query or command.",
+				"I use natural language processing to interpret your instructions. After understanding your request, I provide a response that matches the context and intent of your command.",
+				"I analyze your input using predefined patterns and algorithms. Based on this analysis, I generate a response that aligns with the context of your request.",
+				"Your command is processed by identifying relevant information and intent. I then create a response based on patterns learned from extensive data.",
+				"When you give me a command, I use language models to understand the meaning and context. I then generate a response that fits the context of your query.",
+				"I interpret your commands using algorithms that detect intent and context. I generate a response based on patterns from a large dataset of similar interactions.",
+				"My processing involves understanding your input through natural language techniques, followed by generating a response that fits the context of your request.",
+				"I analyze and decode your input to determine the intended meaning. Then, I use this understanding to formulate a response that matches the context of your command."
+			]
+		},
+		{
+			"tag": "sensor_explanation",
+			"patterns": [
+				"How do your sensors work?",
+				"Can you explain how your sensors operate?",
+				"Tell me about your sensors.",
+				"How do you detect objects?",
+				"What technology do your sensors use?",
+				"How do your sensors detect distance?",
+				"Explain your sensor technology.",
+				"What's the principle behind your sensors?",
+				"How does your sensor system function?",
+				"What kind of sensors are you using?"
+			],
+			"responses": [
+				"My sensors use ultrasonic technology. They emit sound waves and measure the time it takes for the echoes to return, which helps determine the distance to objects.",
+				"I rely on ultrasonic sensors. These sensors send out sound waves and calculate the distance based on how long it takes for the echoes to come back.",
+				"My sensor system operates using ultrasonic waves. It sends out high-frequency sound pulses and measures the delay of the returning echoes to gauge distance.",
+				"I use ultrasonic sensors to detect objects. These sensors work by sending out sound waves and then measuring how long it takes for the sound to bounce back.",
+				"The sensors work by emitting ultrasonic sound waves and then calculating the distance based on the time it takes for the sound to return.",
+				"My sensors use ultrasonic technology, where sound waves are sent out and the time taken for the echo to return is measured to determine the distance.",
+				"I use ultrasonic sensors that send sound waves out and measure the time it takes for them to return after bouncing off an object.",
+				"The principle behind my sensors involves emitting ultrasonic waves and measuring the time for the echoes to return to calculate distances.",
+				"My sensors operate by emitting ultrasonic sound pulses and measuring how long it takes for them to bounce back from objects.",
+				"I use ultrasonic sensors that detect objects by emitting sound waves and measuring the time it takes for them to reflect back to the sensor."
+			]
+		},
+		{
+			"tag": "data_collection",
+			"patterns": [
+				"What data do you collect?",
+				"How does this chatbot use my information?",
+				"What information are you gathering?",
+				"Can you tell me about the data you store?",
+				"How is my data being used?",
+				"What kind of data do you keep?",
+				"Do you collect personal information?",
+				"How do you handle user data?",
+				"Is my data safe with you?",
+				"How is my data utilized?"
+			],
+			"responses": [
+				"I only collect data necessary to assist with your queries and improve my responses. Your privacy is important to us.",
+				"My purpose is to provide helpful responses and enhance my interactions based on the data collected. Your information is handled securely.",
+				"I collect data to understand and respond to your questions better. All data is used in accordance with privacy guidelines.",
+				"The information collected is used to improve the chatbot's performance and ensure a better user experience. Your data is kept confidential.",
+				"Data collected helps in improving responses and providing relevant information. We ensure your privacy is protected.",
+				"Your interactions are logged to help improve responses and functionality. Data security is a priority.",
+				"I use data to learn and offer more accurate responses. All collected data is managed with strict confidentiality.",
+				"Data is collected to enhance user interactions and ensure the chatbot is effective. We take privacy seriously.",
+				"Information collected is used solely to improve my responses and assist you better. We prioritize your data security.",
+				"Your data helps in improving my performance and understanding your needs better. We follow strict privacy protocols."
+			]
+		},
+		{
+			"tag": "power_source",
+			"patterns": [
+				"What powers you?",
+				"How are you powered?",
+				"What's your source of energy?",
+				"Where do you get your power from?",
+				"How do you operate?",
+				"What's the fuel for your functions?",
+				"How are you energized?",
+				"Where does your power come from?",
+				"What keeps you running?",
+				"What drives your operations?"
+			],
+			"responses": [
+				"I'm powered by sophisticated algorithms and servers!",
+				"My functionality comes from complex coding and cloud infrastructure.",
+				"I'm fueled by data and technology!",
+				"My power source is a network of servers and advanced programming.",
+				"I'm energized by the code and infrastructure provided by my developers.",
+				"My operations are driven by powerful computing resources and data.",
+				"I run on a combination of cloud services and machine learning algorithms.",
+				"Technology and coding keep me running smoothly!",
+				"I'm powered by a mix of server capabilities and advanced AI technology.",
+				"Behind the scenes, a lot of technology and data ensure I function effectively."
+			]
+		},
+		{
+			"tag": "software_update",
+			"patterns": [
+				"How do you update your software?",
+				"What process do you use to improve your software?",
+				"Can you explain how you upgrade your system?",
+				"How is your software maintained?",
+				"What updates do you receive?",
+				"How frequently does your software get updated?",
+				"What method do you use for software improvements?",
+				"How is your software enhanced over time?",
+				"What's the procedure for updating your system?",
+				"Can you detail the process of software upgrades?"
+			],
+			"responses": [
+				"My updates are managed by my developers who periodically release new versions to enhance my performance.",
+				"My system is updated through a regular schedule managed by the development team.",
+				"Updates are handled automatically by the development team to ensure I have the latest features and improvements.",
+				"I receive software updates from my developers which are installed automatically.",
+				"My software improvements are made by my development team who regularly push updates.",
+				"I get updated through a process handled by my developers to keep my performance optimal.",
+				"My developers handle updates and improvements, which are implemented periodically.",
+				"I am updated automatically based on the latest versions provided by my development team.",
+				"My software is enhanced through updates provided by my developers.",
+				"Updates are applied regularly by my development team to improve my functionality."
+			]
+		},
+		{
+			"tag": "interaction",
+			"patterns": [
+				"Can you interact with other devices?",
+				"Do you connect with robots?",
+				"How do you communicate with other devices?",
+				"Can you control any external devices?",
+				"Are you able to interact with physical robots?",
+				"What kind of devices can you connect to?",
+				"Do you have the capability to control other gadgets?",
+				"Can you interface with machines?",
+				"What devices can you communicate with?",
+				"Can you connect to other systems?"
+			],
+			"responses": [
+				"I don't interact with other devices or robots directly. I operate within my own system.",
+				"Currently, I don't have the capability to connect with external devices or robots.",
+				"I operate independently and don't interface with physical devices or robots.",
+				"I can't control or communicate with other devices or robots directly.",
+				"My functionality is limited to interacting within my own system and doesn't include external devices.",
+				"I don't have the ability to connect with or control other gadgets or robots.",
+				"At present, I only operate within my own system and don't interact with external devices.",
+				"I'm designed to work independently and don't interact with other machines or devices.",
+				"I don't have the capability to interface with robots or other physical devices.",
+				"My interactions are confined to the system I'm built into, without connecting to external devices."
+			]
+		},
+		{
+			"tag": "safety_features",
+			"patterns": [
+				"What safety features do you have?",
+				"How do you ensure user safety?",
+				"Can you tell me about your safety measures?",
+				"What precautions are in place for safety?",
+				"How is user data protected?",
+				"What security features do you use?",
+				"How do you safeguard user information?",
+				"Can you explain your safety protocols?",
+				"What methods are in place to ensure safe operation?",
+				"How do you handle data privacy and safety?"
+			],
+			"responses": [
+				"I follow strict safety protocols to ensure secure interactions and protect user data.",
+				"User safety is a priority, with various security measures implemented to safeguard data and interactions.",
+				"My system is designed with built-in safety features to protect user information and ensure secure operations.",
+				"I have safety measures in place, including encryption and secure data handling practices.",
+				"Data privacy and security are handled with robust safety features to protect user information.",
+				"My safety protocols include encryption, secure data storage, and regular security updates.",
+				"I use advanced security features to ensure that user data and interactions are safe and protected.",
+				"Safety measures such as encryption and secure access controls are integral to my design.",
+				"User safety is maintained through strict adherence to security protocols and regular updates.",
+				"I ensure safe operation with features designed to protect user data and secure interactions."
+			]
+		},
+		{
+			"tag": "learning_performance",
+			"patterns": [
+				"How do you learn new tasks?",
+				"What process do you use to improve your performance?",
+				"Can you explain how you enhance your abilities?",
+				"How do you get better over time?",
+				"What methods do you use to learn new skills?",
+				"How is your performance improved?",
+				"Can you describe how you acquire new knowledge?",
+				"How do you update your skills?",
+				"What techniques do you use to enhance your performance?",
+				"How do you improve your capabilities?"
+			],
+			"responses": [
+				"I improve my performance through updates and enhancements provided by my developers, who use advanced techniques to upgrade my capabilities.",
+				"Learning new tasks and improving performance involves updates and refinements from my development team.",
+				"My abilities are enhanced through periodic updates and learning algorithms implemented by my developers.",
+				"I acquire new knowledge and improve performance through updates and learning algorithms developed by my team.",
+				"Performance improvements come from regular updates and refinements applied by my development team.",
+				"I get better over time through continuous learning and updates applied by my developers.",
+				"My capabilities are enhanced by learning algorithms and updates provided by my development team.",
+				"I improve my performance through systematic updates and advanced learning methods applied by my team.",
+				"Continuous improvements are made through updates and learning processes managed by my developers.",
+				"My performance enhancement is driven by updates and new learning techniques applied by my development team."
+			]
+		},
+		{
+			"tag": "math_query",
+			"patterns": [
+				"Can you do math?",
+				"Are you good with numbers?",
+				"Can you solve math problems?",
+				"Do you handle math questions?",
+				"Is math something you can do?",
+				"Can you help with calculations?",
+				"Are you able to do basic math?",
+				"Can you work with numbers?",
+				"Can you solve arithmetic problems?",
+				"Can you answer math questions?"
+			],
+			"responses": [
+				"Yes, I can do basic math!",
+				"Absolutely, I can handle basic calculations.",
+				"I can help with simple math problems.",
+				"Yes, I can solve basic arithmetic questions.",
+				"Definitely! I can do basic math for you.",
+				"Sure thing, I can assist with basic math problems.",
+				"Yes, I'm here to help with simple calculations.",
+				"I can definitely help with basic math questions.",
+				"Of course! I can handle simple arithmetic.",
+				"Yes, I’m capable of doing basic math."
+			]
+		},
+		{
+			"tag": "acknowledgment",
+			"patterns": [
+				"oh, it's fine",
+				"no worries",
+				"that's okay",
+				"alright",
+				"got it",
+				"understood",
+				"no problem",
+				"that's alright",
+				"okay then",
+				"all good"
+			],
+			"responses": [
+				"Glad to hear that!",
+				"Great, thanks for letting me know!",
+				"Alright, if you need anything else, just ask.",
+				"Perfect! Let me know if there's anything else.",
+				"Got it! If you need more help, feel free to ask.",
+				"Okay, I'm here if you need me.",
+				"Understood! Let me know if there's anything else.",
+				"No problem! Feel free to reach out if needed.",
+				"Alright! I'm here to assist with anything else.",
+				"Great! If there's anything else on your mind, just let me know."
+			]
+		},
+		{
+			"tag": "name_inquiry",
+			"patterns": [
+				"What is your name?",
+				"Can you tell me your name?",
+				"May I know your name?",
+				"Who am I speaking with?",
+				"What should I call you?",
+				"How do you go by?",
+				"What name should I use for you?",
+				"What's your name?",
+				"Can you share your name?",
+				"What's your name, please?"
+			],
+			"responses": [
+				"I don't have a name, but you can call me Chatbot.",
+				"I don't have a specific name, but you can call me Assistant.",
+				"I don’t have a name, but I'm here to help you.",
+				"I don’t have a name, just think of me as your assistant.",
+				"I'm just a chatbot, I don't have a personal name.",
+				"I don’t have a personal name, but I'm here to assist you.",
+				"I don’t have a name, but you can call me whatever you like.",
+				"I’m known as Chatbot, but you can call me whatever you prefer.",
+				"I don’t have a name, but feel free to call me Assistant.",
+				"I’m just a chatbot without a name, here to help you out."
+			]
+		}
+			
+	]
+}

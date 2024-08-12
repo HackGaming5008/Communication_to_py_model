@@ -1,0 +1,196 @@
+2024-08-06 13:32:35,244 - INFO - User input: what is the date?
+2024-08-06 13:32:35,257 - INFO - Intent matched: date
+2024-08-06 13:32:35,259 - INFO - Bot response: Today's date is  2024-08-06
+2024-08-06 13:35:53,492 - INFO - User input: hello
+2024-08-06 13:35:53,516 - INFO - Intent matched: greetings
+2024-08-06 13:35:53,519 - INFO - Bot response: Hi there, how can I help?
+2024-08-06 13:36:05,980 - INFO - User input: how are you?
+2024-08-06 13:36:05,981 - INFO - Intent matched: howareyou
+2024-08-06 13:36:05,982 - INFO - Bot response: I'm holding up well. How are you holding up?
+2024-08-06 13:36:22,549 - INFO - User input: I am well
+2024-08-06 13:36:22,551 - INFO - Intent matched: iamfine
+2024-08-06 13:36:22,551 - INFO - Bot response: I'm happy to hear you're alright.
+2024-08-06 13:36:51,454 - INFO - User input: 4 + 4
+2024-08-06 13:36:51,455 - INFO - Intent matched: iamfine
+2024-08-06 13:36:51,456 - INFO - Bot response: Great to know everything is okay!
+2024-08-06 13:44:00,628 - INFO - User input: what can you do?
+2024-08-06 13:44:14,068 - INFO - User input: what can you help me with?
+2024-08-06 13:44:14,069 - INFO - Intent matched: music
+2024-08-06 13:44:14,070 - INFO - Bot response: I don't listen to music, but I can help you find some!
+2024-08-06 13:47:06,778 - INFO - User input: python -u "e:\projects\Arduino\Robot\Communication_to_py_model\train.py"
+2024-08-06 13:52:48,193 - INFO - User input: what is 4 + 4
+2024-08-06 13:52:48,213 - INFO - Intent matched: appreciation
+2024-08-06 13:52:48,214 - INFO - Bot response: I'm glad you think so! Thanks for the compliment.
+2024-08-06 13:52:51,560 - INFO - User input: 4 + 4
+2024-08-06 13:52:51,562 - INFO - Intent matched: calculate
+2024-08-06 13:52:51,563 - INFO - Bot response: The result is 8.0
+2024-08-06 13:55:29,847 - INFO - User input: train
+2024-08-06 13:55:29,848 - INFO - Intent matched: train
+2024-08-06 13:56:43,074 - INFO - Bot response: Executing model training now. Please hold on as the process continues.
+2024-08-06 13:58:19,888 - INFO - User input: what is 4 + 4
+2024-08-06 13:58:19,890 - INFO - Intent matched: appreciation
+2024-08-06 13:58:19,890 - INFO - Bot response: Thank you for your encouragement!
+2024-08-06 13:58:41,603 - INFO - User input: what is 4 + 4
+2024-08-06 13:58:41,615 - INFO - Intent matched: calculate
+2024-08-06 13:58:41,616 - INFO - Bot response: The result is 8.0
+2024-08-06 13:58:44,497 - INFO - User input: nice
+2024-08-06 13:58:44,498 - INFO - Intent matched: appreciation
+2024-08-06 13:58:44,499 - INFO - Bot response: Thank you! It was my pleasure to help.
+2024-08-06 13:58:55,976 - INFO - User input: you are good
+2024-08-06 13:58:55,977 - INFO - Intent matched: howareyou
+2024-08-06 13:58:55,978 - INFO - Bot response: Life's treating me well! How's it treating you?
+2024-08-06 13:59:02,467 - INFO - User input: nice
+2024-08-06 13:59:02,468 - INFO - Intent matched: appreciation
+2024-08-06 13:59:02,469 - INFO - Bot response: I appreciate your kind words!
+2024-08-06 14:22:35,608 - INFO - User input: 2 / 3
+2024-08-06 14:22:35,610 - INFO - Intent matched: calculate
+2024-08-06 14:22:35,611 - INFO - Bot response: The result is 0.6666666666666666
+2024-08-06 14:22:39,505 - INFO - User input: 3 / 2
+2024-08-06 14:22:39,507 - INFO - Intent matched: calculate
+2024-08-06 14:22:39,507 - INFO - Bot response: The result is 1.5
+2024-08-06 14:22:49,079 - INFO - User input: 7 * 5
+2024-08-06 14:22:49,081 - INFO - Intent matched: calculate
+2024-08-06 14:22:49,081 - INFO - Bot response: The result is 35.0
+2024-08-06 14:22:59,375 - INFO - User input: add 4 + 3
+2024-08-06 14:22:59,377 - INFO - Intent matched: calculate
+2024-08-06 14:22:59,377 - INFO - Bot response: The result is 7.0
+2024-08-06 14:23:04,606 - INFO - User input: add 4 to 2
+2024-08-06 14:23:04,606 - INFO - Intent matched: calculate
+2024-08-06 14:23:04,606 - INFO - Bot response: I couldn't understand the calculation.
+2024-08-06 14:24:18,791 - INFO - User input: 2/3 * 3/5
+2024-08-06 14:36:11,558 - INFO - User input: train
+2024-08-06 14:36:11,569 - INFO - Intent matched: train
+2024-08-06 14:37:21,142 - INFO - Bot response: Training has been started. Monitoring the progress is ongoing.
+2024-08-06 14:37:44,412 - INFO - User input: 2/3 + 6/4
+2024-08-06 14:37:44,427 - INFO - Intent matched: greetings
+2024-08-06 14:37:44,427 - INFO - Bot response: Hi there, what can I do for you?
+2024-08-06 14:38:02,588 - INFO - User input: 2/3 + 3/6
+2024-08-06 14:38:02,588 - INFO - Intent matched: fraction
+2024-08-06 14:38:02,588 - INFO - Bot response: The result is The result is 2/3
+2024-08-06 14:38:13,312 - INFO - User input: 2/3 + 3/4
+2024-08-06 14:38:13,315 - INFO - Intent matched: greetings
+2024-08-06 14:38:13,315 - INFO - Bot response: Hi there, what can I do for you?
+2024-08-06 14:38:16,370 - INFO - User input: 2/3 + 3/3
+2024-08-06 14:38:16,371 - INFO - Intent matched: greetings
+2024-08-06 14:38:16,373 - INFO - Bot response: Hello, thanks for visiting
+2024-08-06 14:38:19,188 - INFO - User input: 2/3 + 3/8
+2024-08-06 14:38:19,188 - INFO - Intent matched: greetings
+2024-08-06 14:38:19,188 - INFO - Bot response: Hi there, how can I help?
+2024-08-06 14:41:50,106 - INFO - User input: 3 + 4
+2024-08-06 14:41:50,121 - INFO - Intent matched: calculate
+2024-08-06 14:41:50,122 - INFO - Bot response: The result is 7.0
+2024-08-06 14:41:57,151 - INFO - User input: what is 4 + 6
+2024-08-06 14:41:57,153 - INFO - Intent matched: calculate
+2024-08-06 14:41:57,153 - INFO - Bot response: The result is 10.0
+2024-08-06 14:42:04,690 - INFO - User input: what is 2 + 2 now?
+2024-08-06 14:42:04,692 - INFO - Intent matched: calculate
+2024-08-06 14:42:04,692 - INFO - Bot response: The result is 4.0
+2024-08-06 14:42:22,955 - INFO - User input: 3/4 + 5/3
+2024-08-06 14:42:57,178 - INFO - User input: train
+2024-08-06 14:42:57,178 - INFO - Intent matched: train
+2024-08-06 14:44:28,898 - INFO - Bot response: Starting the training sequence. Please be patient as the model is trained.
+2024-08-06 14:44:38,536 - INFO - User input: what is 3/4 + 9
+2024-08-06 14:44:38,537 - INFO - Intent matched: calculate
+2024-08-06 14:44:38,538 - INFO - Bot response: The result is 0.75
+2024-08-06 14:47:40,419 - INFO - User input: 4/3 + 5/3
+2024-08-06 14:47:40,432 - INFO - Intent matched: greetings
+2024-08-06 14:47:40,433 - INFO - Bot response: Hello! How can I assist you today?
+2024-08-06 14:54:26,665 - INFO - User input: 1/2 + 1/2
+2024-08-06 14:54:26,680 - INFO - Intent matched: fraction
+2024-08-06 14:54:26,681 - INFO - Bot response: The result is The result is 1/2
+2024-08-06 14:55:11,086 - INFO - User input: 4/3 + 5/3
+2024-08-06 14:55:11,087 - INFO - Intent matched: greetings
+2024-08-06 14:55:11,088 - INFO - Bot response: Hi there, how can I help?
+2024-08-06 14:55:33,262 - INFO - User input: 5/8 + 3/8
+2024-08-06 14:55:33,263 - INFO - Intent matched: fraction
+2024-08-06 14:55:33,264 - INFO - Bot response: The result is The result is 5/8
+2024-08-06 14:59:22,118 - INFO - User input: 2/4 * 3/4
+2024-08-06 14:59:22,135 - INFO - Intent matched: fraction
+2024-08-06 14:59:22,137 - INFO - Bot response: The result is 1/2
+2024-08-06 15:00:07,316 - INFO - User input: you are wrong
+2024-08-06 15:00:31,050 - INFO - User input: 23/34 + 54/23
+2024-08-06 15:00:31,053 - INFO - Intent matched: greetings
+2024-08-06 15:00:31,054 - INFO - Bot response: Hi there, how can I help?
+2024-08-06 15:00:45,645 - INFO - User input: 4 + 6
+2024-08-06 15:00:45,646 - INFO - Intent matched: calculate
+2024-08-06 15:00:45,647 - INFO - Bot response: The result is 10.0
+2024-08-06 15:00:53,552 - INFO - User input: bye
+2024-08-06 15:00:53,552 - INFO - Intent matched: goodbye
+2024-08-06 15:00:53,552 - INFO - Bot response: Have a nice day
+2024-08-06 15:00:53,552 - INFO - End of conversation
+2024-08-06 15:06:27,586 - INFO - User input: 4/3 * 3/5
+2024-08-06 15:06:27,602 - INFO - Intent matched: fraction
+2024-08-06 15:06:27,603 - INFO - Bot response: The result is 4/3
+2024-08-06 15:08:40,695 - INFO - User input: 3/4 * 4/5
+2024-08-06 15:08:40,709 - INFO - Intent matched: fraction
+2024-08-06 15:08:40,710 - INFO - Bot response: The result is 3/4
+2024-08-06 15:14:19,699 - INFO - User input: what is 1/4 * 4/3
+2024-08-06 15:14:19,720 - INFO - Intent matched: fraction
+2024-08-06 15:14:19,721 - INFO - Bot response: The result is 1/4
+2024-08-06 15:14:33,733 - INFO - User input: what is 4/3 plus 3/4
+2024-08-06 15:14:33,735 - INFO - Intent matched: fraction
+2024-08-06 15:14:33,735 - INFO - Bot response: The result is 4/3
+2024-08-06 15:14:43,409 - INFO - User input: 3/4 * 5/3
+2024-08-06 15:14:43,411 - INFO - Intent matched: fraction
+2024-08-06 15:14:43,412 - INFO - Bot response: The result is 3/4
+2024-08-06 15:54:41,312 - INFO - User input: 3/4 * 4/3
+2024-08-06 15:54:41,325 - INFO - Intent matched: fraction
+2024-08-06 15:54:41,326 - INFO - Bot response: The result is 1
+2024-08-06 15:54:57,396 - INFO - User input: 34/56 * 56/2
+2024-08-06 15:54:57,398 - INFO - Intent matched: greetings
+2024-08-06 15:54:57,399 - INFO - Bot response: Hello! How can I assist you today?
+2024-08-06 15:55:27,264 - INFO - User input: 7/3 * 8/4
+2024-08-06 15:55:27,266 - INFO - Intent matched: greetings
+2024-08-06 15:55:27,267 - INFO - Bot response: Hi there, how can I help?
+2024-08-06 15:55:36,925 - INFO - User input: 3/4 + 9/3
+2024-08-06 15:55:36,927 - INFO - Intent matched: fraction
+2024-08-06 15:55:36,928 - INFO - Bot response: The result is 15/4
+2024-08-06 16:34:48,459 - INFO - User input: 3/4 * 9/3
+2024-08-06 16:34:48,468 - INFO - Intent matched: fraction
+2024-08-06 16:34:48,470 - INFO - Bot response: The result is 9/4
+2024-08-06 16:35:23,742 - INFO - User input: 4/3 * 9
+2024-08-06 16:35:23,743 - INFO - Intent matched: calculate
+2024-08-06 16:35:23,745 - INFO - Bot response: The result is 1.3333333333333333
+2024-08-06 16:38:58,283 - INFO - User input: 4 /3
+2024-08-06 16:38:58,285 - INFO - Intent matched: calculate
+2024-08-06 16:38:58,286 - INFO - Bot response: The result is 1.3333333333333333
+2024-08-06 16:39:42,357 - INFO - User input: 4/3 * 9/5
+2024-08-06 16:39:42,359 - INFO - Intent matched: greetings
+2024-08-06 16:39:42,360 - INFO - Bot response: Hello, thanks for visiting
+2024-08-07 15:35:10,974 - INFO - User input: train
+2024-08-07 15:35:11,862 - INFO - Intent matched: train
+2024-08-07 15:37:10,493 - INFO - Bot response: Model training has begun. Check back later for updates.
+2024-08-07 15:42:40,607 - INFO - User input: train
+2024-08-07 15:42:40,618 - INFO - Intent matched: train
+2024-08-07 15:44:39,011 - INFO - Bot response: Model training has begun. Check back later for updates.
+2024-08-07 15:53:47,807 - INFO - User input: hello
+2024-08-07 15:53:47,827 - INFO - Intent matched: greetings
+2024-08-07 15:53:48,307 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Dhrit\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-08-07 15:53:48,307 - INFO - Using writeable comtypes cache directory: 'C:\Users\Dhrit\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2024-08-07 15:54:11,813 - INFO - Bot response: Hi there, how can I help?
+2024-08-07 15:54:18,607 - INFO - User input: start
+2024-08-07 15:54:18,607 - INFO - Intent matched: move_
+2024-08-11 11:34:02,234 - INFO - User input: hello
+2024-08-11 11:34:02,564 - INFO - Intent matched: greetings
+2024-08-11 11:34:02,564 - INFO - Bot response: Hello! How can I assist you today?
+2024-08-11 11:34:10,613 - INFO - User input: who are you?
+2024-08-11 11:34:10,679 - INFO - Intent matched: name
+2024-08-11 11:34:10,680 - INFO - Bot response: I am an AI model created by Dhritisman.
+2024-08-11 11:35:20,229 - INFO - User input: what are your functions?
+2024-08-11 11:35:20,231 - INFO - Intent matched: tasks
+2024-08-11 11:35:20,231 - INFO - Bot response: I am here to provide information and assist with your needs.
+2024-08-11 11:35:39,041 - INFO - User input: what are your functions?
+2024-08-11 11:35:39,043 - INFO - Intent matched: tasks
+2024-08-11 11:35:39,043 - INFO - Bot response: I can help with answering questions, giving information, and assisting with a variety of topics.
+2024-08-11 11:35:54,907 - INFO - User input: can you do math?
+2024-08-11 11:35:54,909 - INFO - Intent matched: hobbies
+2024-08-11 11:35:54,910 - INFO - Bot response: My hobby is assisting you with your queries.
+2024-08-11 11:37:38,506 - INFO - User input: can you dance?
+2024-08-11 11:37:38,508 - INFO - Intent matched: dance
+2024-08-11 11:37:38,627 - INFO - Bot response: I wish I could, but I'm all code and no moves!
+2024-08-11 11:37:49,225 - INFO - User input: ohh its ok
+2024-08-11 11:37:49,227 - INFO - Intent matched: creator
+2024-08-11 11:37:49,229 - INFO - Bot response: I am a creation of Dhritisman.
+2024-08-11 11:42:16,536 - INFO - User input: who is your creator?
+2024-08-11 11:42:16,537 - INFO - Intent matched: creator
+2024-08-11 11:42:16,538 - INFO - Bot response: I am a creation of Dhritisman.
