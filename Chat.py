@@ -12,7 +12,7 @@ from maths import add, multiply, subtract, divide, extract_numbers_and_operation
 
 
 # Configure logging
-logging.basicConfig(filename='chatbot.log',
+logging.basicConfig(filename='./data/chatbot.log',
                     level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 

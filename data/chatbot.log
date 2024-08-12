@@ -194,3 +194,9 @@
 2024-08-11 11:42:16,536 - INFO - User input: who is your creator?
 2024-08-11 11:42:16,537 - INFO - Intent matched: creator
 2024-08-11 11:42:16,538 - INFO - Bot response: I am a creation of Dhritisman.
+2024-08-12 16:24:19,269 - INFO - User input: hi
+2024-08-12 16:24:19,291 - INFO - Intent matched: greetings
+2024-08-12 16:24:19,298 - INFO - Bot response: Hello, thanks for visiting
+2024-08-12 16:24:42,167 - INFO - User input: how are you boy?
+2024-08-12 16:24:42,169 - INFO - Intent matched: howareyou
+2024-08-12 16:24:42,170 - INFO - Bot response: I'm in a good mood today! How's your mood?
